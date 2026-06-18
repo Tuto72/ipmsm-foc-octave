@@ -209,7 +209,7 @@ $$
 Otherwise:
 
 $$
-v_d = v_d^*, \qquad v_q = v_q^*
+v_d = 
 $$
 
 ## 10. Closed-loop state vector
