@@ -2,11 +2,11 @@
 
 This project implements a basic Field-Oriented Control (FOC) simulation for an Interior Permanent Magnet Synchronous Motor (IPMSM) or Permanent Magnet Synchronous Motor (PMSM) drive using GNU Octave.
 
-The goal of the project is to provide a clear and interactive educational tool for studying the dynamic behavior of a synchronous motor drive under vector control. The simulation uses a motor model in the rotating $d$-$q$ reference frame, PI current controllers, a PI speed controller, and an averaged voltage-source inverter model. High-frequency semiconductor switching is not modeled; instead, the inverter is represented by its maximum available voltage vector.
+The goal of the project is to provide a clear and interactive educational tool for studying the dynamic behavior of a synchronous motor drive under vector control. The simulation uses a motor model in the rotating $d\text{-}q$ reference frame, PI current controllers, a PI speed controller, and an averaged voltage-source inverter model. High-frequency semiconductor switching is not modeled; instead, the inverter is represented by its maximum available voltage vector.
 
 The graphical user interface allows the user to modify motor parameters, inverter limits, controller gains, reference speed, load torque, simulation time, and numerical solver settings. Simulation results can be visualized directly in the GUI and exported for further analysis.
 
-The current version focuses on basic FOC with $i_d^* = 0$. Future extensions may include Maximum Torque per Ampere (MTPA), flux weakening, Maximum Torque per Voltage (MTPV), and operation maps in the $i_d$-$i_q$ plane.
+The current version focuses on basic FOC with $i_d^* = 0$. Future extensions may include Maximum Torque per Ampere (MTPA), flux weakening, Maximum Torque per Voltage (MTPV), and operation maps in the $i_d\text{-}i_q$ plane.
 
 ## Features
 
