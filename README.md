@@ -80,6 +80,7 @@ ylabel("Mechanical speed [rpm]");
 .
 ├── main_gui_foc_basic.m
 ├── README.md
+├── LICENSE
 ├── CHANGELOG.md
 ├── .gitignore
 └── docs/
