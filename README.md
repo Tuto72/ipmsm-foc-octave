@@ -78,7 +78,7 @@ $$
 The q-axis current reference is obtained from the current circle:
 
 $$
-i_q^* = \text{sign}(I_s^*)\sqrt{(I_s^*)^2 - (i_d^*)^2}
+i_{q}^{*} = \mathrm{sign}(I_{s}^{*}) \sqrt{(I_{s}^{*})^{2} - (i_{d}^{*})^{2}}
 $$
 
 If `Lq <= Ld`, the GUI falls back to Basic FOC:
