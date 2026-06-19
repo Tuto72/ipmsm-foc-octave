@@ -167,7 +167,7 @@ $$
 For a salient IPMSM, the reluctance torque allows part of the torque production to come from a negative direct-axis current. The current constraint is:
 
 $$
-(I_s^*)^2 = (i_d^*)^2 + (i_q^*)^2
+(I_{s}^{*})^2 = (i_{d}^{*})^2 + (i_{q}^{*})^2
 $$
 
 For `Lq > Ld`, the implemented MTPA expression is:
@@ -179,7 +179,7 @@ $$
 The q-axis current reference is then obtained from the current circle:
 
 $$
-i_q^* = \operatorname{sign}(I_s^*)\sqrt{(I_s^*)^2 - (i_d^*)^2}
+i_q^* = \text{sign}(I_s^*)\sqrt{(I_s^*)^2 - (i_d^*)^2}
 $$
 
 If `Is* = 0`, the references are:
