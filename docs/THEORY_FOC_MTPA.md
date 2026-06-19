@@ -167,7 +167,7 @@ $$
 For a salient IPMSM, the reluctance torque allows part of the torque production to come from a negative direct-axis current. The current constraint is:
 
 $$
-(I_{s}^{*})^2 = (i_{d}^{*})^2 + (i_{q}^{*})^2
+(I_{s}^{\ast})^2 = (i_{d}^{\ast})^2 + (i_{q}^{\ast})^2
 $$
 
 For `Lq > Ld`, the implemented MTPA expression is:
