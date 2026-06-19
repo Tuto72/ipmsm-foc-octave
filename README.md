@@ -163,7 +163,7 @@ vd, vq, Vs, Vmax, voltage saturation flag, current saturation flag
 
 The code is intentionally kept in one main `.m` file for the GUI. This makes the release easy to run, review, and share. Later versions can split the model, controller, solver, plotting, and GUI callbacks into separate files.
 
-GUI 2 is an incremental extension of the basic FOC GUI. It keeps the averaged inverter and fixed-step simulation structure, while adding the MTPA current-reference generator and an operation-mode selector.
+FOC + MTPA GUI is an incremental extension of the basic FOC GUI. It keeps the averaged inverter and fixed-step simulation structure, while adding the MTPA current-reference generator and an operation-mode selector.
 
 ## License
 
