@@ -173,7 +173,7 @@ $$
 For `Lq > Ld`, the implemented MTPA expression is:
 
 $$
-i_d^* = \frac{\psi_f - \sqrt{\psi_f^2 + 8(L_q - L_d)^2(I_s^*)^2}}{4(L_q - L_d)}
+i_d^* = \frac{\psi_f}{4\Delta L} - \sqrt{\left(\frac{\psi_f}{4\Delta L}\right)^2 + \left(\frac{I_s}{\sqrt{2}}\right)^2}
 $$
 
 The q-axis current reference is then obtained from the current circle:
