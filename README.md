@@ -75,7 +75,7 @@ $$
 i_d^* = \frac{\psi_f}{4\Delta L} - \sqrt{\left(\frac{\psi_f}{4\Delta L}\right)^2 + \left(\frac{I_s}{\sqrt{2}}\right)^2}
 $$
 
-The $q$-axis current reference is obtained from the current circle:
+The q-axis current reference is obtained from the current circle:
 
 $$
 i_q^* = \text{sign}(I_s^*)\sqrt{(I_s^*)^2 - (i_d^*)^2}
