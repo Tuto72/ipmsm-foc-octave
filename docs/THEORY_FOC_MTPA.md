@@ -129,7 +129,7 @@ $$
 This value is limited by the maximum stator current:
 
 $$
-I_s^* = \operatorname{sat}(I_{s,\text{unsat}}^*, -I_{\max}, I_{\max})
+I_s^* = \text{sat}(I_{s,\text{unsat}}^*, -I_{\max}, I_{\max})
 $$
 
 The speed-controller integrator follows:
