@@ -179,7 +179,7 @@ $$
 The q-axis current reference is then obtained from the current circle:
 
 $$
-i_{q}^{\ast} = \text{sign}(I_{s}^[\ast})\sqrt{(I_{s}^{\ast})^2 - (i_{d}^{\ast})^2}
+i_{q}^{\ast} = \text{sign}(I_{s}^{\ast})\sqrt{(I_{s}^{\ast})^2 - (i_{d}^{\ast})^2}
 $$
 
 If `Is* = 0`, the references are:
